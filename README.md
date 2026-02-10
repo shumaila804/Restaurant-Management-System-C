@@ -62,14 +62,25 @@ After execution, the program creates:
 
 ## ⚙️ **How to Run**
 
-🚀 How to Run
-1️⃣ Clone or download the repository.
+**1️⃣ Clone the Repository**
 
-2️⃣ Compile the program using a C compiler:
+Clone or download the repository to your local machine: git clone https://github.com/your-username/your-repo-name.git
 
-Bash
-gcc pf.c -o pf
-3️⃣ Run the executable: ```bash ./pf
+**2️⃣ Compile the Program**
+
+Use a C compiler (like GCC) to compile the source code:
+
+Linux/macOS: gcc pf.c -o pf
+
+Windows: gcc pf.c -o pf.exe
+
+**3️⃣ Run the Executable**
+
+Execute the compiled program to start the system:
+
+Linux/macOS: ./pf
+
+Windows: pf.exe
 
 
 ---
