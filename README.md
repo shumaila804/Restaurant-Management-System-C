@@ -62,47 +62,44 @@ After execution, the program creates:
 
 ## ⚙️ **How to Run**
 
-1️⃣ Clone or download the repository.  
+🚀 How to Run
+1️⃣ Clone or download the repository.
 
-2️⃣ Compile the program:
+2️⃣ Compile the program using a C compiler:
 
-```bash
+Bash
 gcc pf.c -o pf
+3️⃣ Run the executable: ```bash ./pf
 
 
 ---
 
-## 📊 **Output**
-
-- **Takes multiple user orders**  
-- **Calculates individual & total bills**  
-- **Accepts payment & returns change**  
-- **Saves data into files**  
-- **Provides an interactive experience**  
-
----
-
-## 📌 **Learning Outcomes**
-
-- **Understand modular programming**  
-- **Practice file handling**  
-- **Use loops, arrays & conditions**  
-- **Build a real-world console application**  
+## 📊 Output & Key Features
+The system successfully performs the following operations:
+* **Multi-User Orders:** Handles orders for multiple customers in a single session.
+* **Dynamic Menu:** Offers Main Dishes, Drinks, and Desserts with size-based pricing.
+* **Automated Billing:** Calculates individual totals, processes payments, and returns change.
+* **Data Logging:** Automatically saves order details to `orders.txt` and feedback to `feedback.txt`.
+* **Customer Feedback:** Includes a rating system and comment section for service evaluation.
 
 ---
 
-## 🏁 **Conclusion**
+## 📌 Learning Outcomes
+Through this project, I have reinforced:
+* **Modular Programming:** Using separate functions for file management and core logic.
+* **Data Handling:** Using arrays for price lists and loops for iterative tasks.
+* **Real-world Application:** Building a structured system from pseudocode and flowcharts to a functional product.
 
-This project successfully simulates a **Restaurant Ordering and Feedback System** using **C programming**.  
+---
 
-It demonstrates structured programming concepts and practical implementation of **file handling**, **input validation**, and **modular design**.
+## 🏁 Conclusion
+This project achieves the objective of simulating a real-world restaurant system. It demonstrates practical skills in **C programming**, specifically focusing on data integrity, input validation, and structured design.
 
 ---
 
-## ❤️ **Author**
-
-**Shumaila Arif**  
-**BS Cyber Security**
+## ❤️ Author
+**Shumaila Arif** **BS Cyber Security** *IQRA University*
 
 ---
+
 
