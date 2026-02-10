@@ -67,4 +67,42 @@ After execution, the program creates:
 2️⃣ Compile the program:
 
 ```bash
-gcc pf.c -o restaurant
+gcc pf.c -o pf
+
+
+---
+
+## 📊 **Output**
+
+- **Takes multiple user orders**  
+- **Calculates individual & total bills**  
+- **Accepts payment & returns change**  
+- **Saves data into files**  
+- **Provides an interactive experience**  
+
+---
+
+## 📌 **Learning Outcomes**
+
+- **Understand modular programming**  
+- **Practice file handling**  
+- **Use loops, arrays & conditions**  
+- **Build a real-world console application**  
+
+---
+
+## 🏁 **Conclusion**
+
+This project successfully simulates a **Restaurant Ordering and Feedback System** using **C programming**.  
+
+It demonstrates structured programming concepts and practical implementation of **file handling**, **input validation**, and **modular design**.
+
+---
+
+## ❤️ **Author**
+
+**Shumaila Arif**  
+**BS Cyber Security**
+
+---
+
