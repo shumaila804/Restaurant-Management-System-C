@@ -1,33 +1,70 @@
-# Birbal's Kitchen - Automated Ordering System 🍔🥤
+# 🍽️ **Birbal’s Kitchen – Restaurant Ordering & Feedback System (C)**
 
-A structured C-based automation system designed to manage restaurant operations, including order placement, bill calculation, and persistent data logging.
+A **console-based Restaurant Ordering and Feedback System** developed in **C** that allows multiple users to place orders, calculate bills, make payments, and submit feedback. The system also saves order and feedback records using file handling.
 
-## 🛡️ Cyber Security Perspective
-Even though this is a Programming Fundamentals project, I have focused on:
-* [cite_start]**Input Validation:** Implementing checks to prevent program crashes due to unexpected user input[cite: 16, 51].
-* [cite_start]**Data Persistence:** Securely logging transaction records into external `.txt` files[cite: 52].
-* [cite_start]**Modular Design:** Using functional decomposition to ensure code maintainability and clarity[cite: 39, 41].
+---
 
-## 🚀 Features
-* [cite_start]**Interactive Menus:** Organized categories for Main Dishes, Drinks, and Desserts[cite: 14, 30].
-* [cite_start]**Automated Billing:** Real-time calculation of individual and total bills with change management[cite: 17, 31].
-* [cite_start]**Feedback System:** Collecting and storing user ratings and comments[cite: 18, 24].
-* [cite_start]**File Handling:** Saves every order and feedback into `orders.txt` and `feedback.txt` for record-keeping[cite: 25, 33].
+## 📌 **Project Information**
 
-## 🛠️ Tech Stack
-* [cite_start]**Language:** C [cite: 13]
-* [cite_start]**Concepts:** Arrays, Loops, File I/O, Modular Programming (Functions), and Switch Cases[cite: 11, 47].
+- **Name:** Shumaila Arif  
+- **Program:** BS Cyber Security  
+- **Course:** Programming Fundamental Lab  
+- **Instructor:** Sir Shahzaib Ansari  
+- **Language Used:** C  
 
-## 📊 Program Logic
-The program follows a structured flow from user input to payment processing and finally data logging.
+---
 
- 
-*(Note: Upload your flowchart image to GitHub and put its link here)*
+## 🎯 **Objective**
 
-## 📂 File Structure
-* [cite_start]`main.c`: The core logic of the system[cite: 109].
-* [cite_start]`orders.txt`: Database for storing sales records[cite: 101].
-* [cite_start]`feedback.txt`: Database for storing customer reviews[cite: 102].
+The objective of this project is to simulate a real-world restaurant system where users can:
 
-## 👤 Author
-* [cite_start]**Shumail Arif** - BS Cyber Security
+- ✅ Place food and drink orders  
+- ✅ Select sizes and quantities  
+- ✅ Generate bills automatically  
+- ✅ Make payments and receive change  
+- ✅ Submit ratings and feedback  
+- ✅ Store records using file handling  
+
+---
+
+## 🧠 **Features**
+
+- ✔️ Multiple user support  
+- ✔️ Menu-driven interface  
+- ✔️ Size & quantity selection  
+- ✔️ Automatic bill calculation  
+- ✔️ Payment handling  
+- ✔️ Feedback system  
+- ✔️ File handling (`orders.txt`, `feedback.txt`)  
+- ✔️ Modular programming  
+
+---
+
+## 🛠️ **Technologies Used**
+
+- **C Programming**  
+- **File Handling**  
+- **Loops & Conditions**  
+- **Arrays**  
+- **Functions**  
+- **Switch Cases**  
+
+---
+
+## 📂 **Files Generated**
+
+After execution, the program creates:
+
+- 📄 **orders.txt** → Stores user bills  
+- 📄 **feedback.txt** → Stores ratings & comments  
+
+---
+
+## ⚙️ **How to Run**
+
+1️⃣ Clone or download the repository.  
+
+2️⃣ Compile the program:
+
+```bash
+gcc pf.c -o restaurant
