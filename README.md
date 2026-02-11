@@ -64,8 +64,7 @@ After execution, the program creates:
 
 **1️⃣ Clone the Repository**
 
-Clone or download the repository to your local machine: git clone https://github.com/your-username/your-repo-name.git
-
+Clone or download the repository to your local machine: (https://github.com/shumaila804/Restaurant-Management-System-C)
 **2️⃣ Compile the Program**
 
 Use a C compiler (like GCC) to compile the source code:
